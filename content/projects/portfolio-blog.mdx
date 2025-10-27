@@ -1,0 +1,128 @@
+---
+title: Portfolio Blog with Next.js 15
+date: 2024-10-26
+excerpt: A modern, fast, and SEO-friendly portfolio blog built with Next.js 15, TypeScript, Tailwind CSS, and MDX for content management.
+tags:
+  - Next.js
+  - TypeScript
+  - Tailwind
+  - MDX
+  - Blog
+cover: /images/projects/portfolio-blog-cover.jpg
+demo: https://singhprashant.dev
+repo: https://github.com/singhprashant/portfolio-blog
+---
+
+# Portfolio Blog with Next.js 15
+
+A production-ready portfolio blog application showcasing modern web development practices and technologies.
+
+## Features
+
+### ⚡ Performance First
+- **Next.js 15** with App Router for optimal performance
+- **Server Components** by default for better SEO and loading times
+- **Static generation** for blog posts and projects
+- **Optimized images** with next/image
+
+### 🎨 Modern Design
+- **Tailwind CSS** for utility-first styling
+- **Responsive design** that works on all devices
+- **Dark/Light theme** with system preference detection
+- **Clean typography** with @tailwindcss/typography
+
+### 📝 Content Management
+- **MDX support** for rich content with React components
+- **Contentlayer** for type-safe content management
+- **Frontmatter validation** with Zod schemas
+- **Draft posts** support for development
+
+### 🔍 SEO Optimized
+- **Dynamic metadata** generation
+- **Open Graph** and Twitter Card support
+- **RSS feed** generation
+- **Sitemap** generation
+- **Structured data** for better search indexing
+
+## Technical Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript for type safety
+- **Styling**: Tailwind CSS with custom design system
+- **Content**: MDX with Contentlayer
+- **Code Highlighting**: Rehype Pretty Code with Shiki
+- **Icons**: Lucide React
+- **Deployment**: Vercel
+
+## Architecture
+
+### File Structure
+```
+app/
+├── layout.tsx          # Root layout with theme provider
+├── page.tsx            # Homepage with hero and featured content
+├── blog/
+│   ├── page.tsx        # Blog listing with pagination
+│   └── [slug]/
+│       └── page.tsx    # Individual blog post
+├── projects/
+│   └── page.tsx        # Projects showcase
+├── about/
+│   └── page.tsx        # About page
+├── rss.xml/
+│   └── route.ts        # RSS feed generation
+└── sitemap.xml/
+    └── route.ts        # Sitemap generation
+
+components/
+├── Header.tsx          # Navigation header
+├── Footer.tsx          # Site footer
+├── MdxComponents.tsx   # Custom MDX components
+├── PostCard.tsx        # Blog post preview card
+└── ProjectCard.tsx     # Project showcase card
+
+lib/
+├── contentlayer.ts     # Content management utilities
+├── seo.ts             # SEO and metadata utilities
+├── rss.ts             # RSS feed generation
+└── sitemap.ts         # Sitemap generation
+
+content/
+├── blog/              # Blog posts in MDX
+└── projects/          # Project descriptions in MDX
+```
+
+### Performance Optimizations
+
+1. **Static Generation**: All blog posts and projects are statically generated at build time
+2. **Image Optimization**: Automatic image optimization with next/image
+3. **Code Splitting**: Automatic code splitting with Next.js
+4. **Caching**: Aggressive caching strategies for static content
+5. **Minimal JavaScript**: Server Components reduce client-side JavaScript
+
+## Development Experience
+
+- **Type Safety**: Full TypeScript support with strict mode
+- **Content Validation**: Frontmatter validation with Zod schemas
+- **Hot Reloading**: Instant updates during development
+- **ESLint & Prettier**: Code formatting and linting
+- **Git Hooks**: Pre-commit hooks for code quality
+
+## Deployment
+
+The application is optimized for deployment on Vercel with:
+
+- Automatic deployments from GitHub
+- Edge functions for API routes
+- Global CDN for optimal performance
+- Analytics and Core Web Vitals monitoring
+
+## Key Learnings
+
+1. **Next.js App Router**: Mastered the new App Router patterns and conventions
+2. **Content Management**: Built a flexible content management system with Contentlayer
+3. **Performance**: Achieved excellent Core Web Vitals scores through optimization
+4. **SEO**: Implemented comprehensive SEO strategies for better discoverability
+5. **Developer Experience**: Created a smooth development workflow with proper tooling
+
+This project demonstrates modern web development best practices and serves as a foundation for building fast, scalable, and maintainable web applications.
