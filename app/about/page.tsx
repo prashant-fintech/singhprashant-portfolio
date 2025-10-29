@@ -147,7 +147,7 @@ export default function AboutPage() {
                 </div>
               </Link>
               <Link
-                href="https://github.com/singhprashant"
+                href="https://github.com/prashant-fintech"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-3 rounded-lg border border-border/50 hover:bg-muted/50 transition-colors"
@@ -155,7 +155,7 @@ export default function AboutPage() {
                 <Github className="h-5 w-5 text-muted-foreground" />
                 <div>
                   <div className="font-medium">GitHub</div>
-                  <div className="text-sm text-muted-foreground">@singhprashant</div>
+                  <div className="text-sm text-muted-foreground">@prashant-fintech</div>
                 </div>
               </Link>
               <Link

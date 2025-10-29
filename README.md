@@ -185,7 +185,7 @@ Contributions, issues, and feature requests are welcome!
 
 - Website: [singhprashant.dev](https://singhprashant.dev)
 - Email: hello@singhprashant.dev
-- GitHub: [@singhprashant](https://github.com/singhprashant)
+- GitHub: [@prashant-fintech](https://github.com/prashant-fintech)
 - LinkedIn: [prashant-singh-dev](https://linkedin.com/in/prashant-singh-dev)
 
 ---

@@ -34,10 +34,10 @@ export default function Home() {
             </Link>
             <div className="flex items-center gap-4">
               <Link
-                href="https://github.com/singhprashant"
+                href="https://github.com/prashant-fintech"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                className="inline-flex items-center justify-center rounded-md border border-input bg-background px-6 py-3 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
               >
                 <Github className="h-4 w-4" />
               </Link>
